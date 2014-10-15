@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/quit" 
+        android:menuCategory="system" 
+        android:title="quit"></item> 
+        <group android:id="@+id/Setting" android:checkableBehavior="single" android:menuCategory="container" android:visible="true" android:enabled="true">
+            <item android:id="@+id/Normal" android:menuCategory="container" android:visible="true" android:checkable="false" android:title="Normal"></item>
+            <item android:id="@+id/Hybrid" android:menuCategory="container" android:visible="true" android:checkable="false" android:title="Hybrid" android:checked="false"></item>
+            <item android:id="@+id/Terrain" android:menuCategory="container" android:visible="true" android:checkable="false" android:title="Terrain" android:checked="false"></item>
+    </group>
+
+    
+
+</menu>
